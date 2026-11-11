@@ -25,6 +25,7 @@
     - No llames hooks dentro de bucles, condicionales o funciones anidadas.
     - Evita side effects durante el render, los componentes y hooks deben ser puros.
     - Usa React Query o SWR cuando tu componente necesite obtener datos de una API y compartirlos o reutilizarlos entre varios componentes con cache y refetch automático.
+    - Para interfaces web usar Tailwind CSS. Con layout reutilizable con header, navbar, footer y contenido principal centrado. Use semantica HTML with: `header`, `main`, and `footer`.
     - Registrar en CLAUDE.md: Available skills y Skill trigger rules, si no existe lo creas
 5. Activation Triggers: cuando el usuario pida crear una aplicación o componente React, o agregar/modificar componentes, hooks, estado, formularios o lógica de UI en React.
 ```
